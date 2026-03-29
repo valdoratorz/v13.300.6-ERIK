@@ -11,7 +11,7 @@ An archive of Erik Royale for Clash Royale v13.300.6
 3. `node .`
 
 # Warning: Login Decryption is not patched therefore you won't connect.
-~# * *Now you can connect to your server through a Nulls Royale v13.300.6 client with Frida Interception.*
+*Now you can connect to your server through a Nulls Royale v13.300.6 client with Frida Interception.*
 
 ## What is implemented?
 * Battles

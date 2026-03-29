@@ -1,0 +1,72 @@
+const PiranhaMessage = require("../../PiranhaMessage");
+
+class SectorHeabeatMessage extends PiranhaMessage {
+  constructor(client, jsonParams = {}) {
+    super();
+    this.id = 21473;
+    this.client = client;
+    this.version = 0;
+    this.jsonParams = jsonParams;
+  }
+
+  async encode() {
+    if (!this.jsonParams.tick)
+      this.jsonParams.tick = this.client.clientBattleTick;
+
+    this.writeVInt(601);
+    this.writeVInt(0);
+    this.writeVInt(1);
+    this.writeVInt(124);
+    this.writeVInt(6000);
+    this.writeVInt(-1);
+    this.writeVInt(0);
+    this.writeVInt(69916417);
+    this.writeVInt(-1);
+    this.writeVInt(1);
+    this.writeVInt(12500); //coords
+    this.writeVInt(11500); //coords
+    this.writeInt(26000003);
+    this.writeInt(0);
+    this.writeInt(1367345152);
+
+    // this.writeVInt(22);
+    // this.writeVInt(546358885);
+    // this.writeVInt(1);
+    // this.writeVInt(124);
+    // this.writeVInt(213);
+    // this.writeVInt(-1);
+    // this.writeVInt(0);
+    // this.writeVInt(69916417);
+    // this.writeVInt(-1);
+    // this.writeVInt(1);
+    // this.writeVInt(12500);
+    // this.writeVInt(12500);
+    // this.writeInt(26000018);
+    // this.writeInt(0);
+    // this.writeInt(1107298304);
+
+    //     this.writeVInt(1);
+    // this.writeVInt(0);
+    // this.writeVInt(0);
+    // this.writeVInt(1);
+    // this.writeVInt(21473);
+    // this.writeVInt(36);
+    // this.writeVInt(25);
+    // this.writeVInt(-201920517);
+    // this.writeVInt(1);
+    // this.writeVInt(124);
+    // this.writeVInt(243);
+    // this.writeVInt(-1);
+    // this.writeVInt(0);
+    // this.writeVInt(69916417);
+    // this.writeVInt(-1);
+    // this.writeVInt(1);
+    // this.writeVInt(30499);
+    // this.writeVInt(499);
+    // this.writeInt(26000000);
+    // this.writeInt(0);
+    // this.writeInt(809500672);
+  }
+}
+
+module.exports = SectorHeabeatMessage;

@@ -1,0 +1,72 @@
+11216 send battle event message
+
+
+vint: 281180546
+vint: 574
+vint: 0
+vint: 1
+vint: 18683
+vint: 8
+vint: 0
+vint: 70112894
+vint: 1
+vint: 574
+vint: 0
+vint: 3
+vint: 0
+vint: 0
+vint: 1
+vint: 0
+vint: 1
+vint: 18683
+vint: 8
+
+
+
+
+
+
+1
+3
+0
+2
+1
+224
+0
+3
+1
+0
+1
+0
+0
+0
+0
+0
+0
+0
+0
+0
+1266
+
+
+1
+1
+0
+2
+1
+132
+0
+1
+1
+0
+0
+0
+0
+0
+0
+0
+1720
+25
+-1
+-64
+^C

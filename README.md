@@ -19,7 +19,10 @@ An archive of Erik Royale for Clash Royale v13.300.6
 * Database
 
 ## Who Made it?:
- * Erik Reis
+ * ChatGPT
+
+## Who Made it?:
+* Erik Reis
 
 ## Who Leaked it?:
  * Credits to vile.
